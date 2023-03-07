@@ -1,0 +1,19 @@
+.button-Top{
+    position: fixed;
+    right: 16px;
+    bottom: 155px;
+    @media (min-width: 2500px) {
+        bottom: 200px;
+    }
+    @media (max-width: 1024px) {
+        bottom: 15px ;
+    }
+    .Top-img{
+        width: 34px;
+        height: 34px;
+        @media (min-width: 2500px) {
+            width: 66px;
+            height: 66px;
+        }
+    }
+}

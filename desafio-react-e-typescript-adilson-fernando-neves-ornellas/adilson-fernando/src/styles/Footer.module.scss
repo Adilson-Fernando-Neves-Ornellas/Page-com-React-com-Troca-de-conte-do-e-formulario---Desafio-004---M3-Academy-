@@ -1,0 +1,149 @@
+.footer{
+
+    .conteiner-info{
+        display: flex;
+        background: black;
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+        .info-text-desktop{
+            margin-top: 20px;
+            margin-left: 7.813%;
+            padding-bottom: 20px;
+            @media (min-width: 2500px){
+              margin-left: 4%;
+              margin-top: 25px;
+            }
+            @media (max-width: 1024px) {
+                display: none;
+            }
+            .text-h2{
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                @media (min-width: 2500px){
+                    font-size: 20px;
+                    line-height: 23px;
+                }
+            }
+        }
+        .info-icons{
+            width:39.765625%;
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            padding-bottom: 15px;
+            padding-left:8.625781% ;
+            @media (min-width: 2500px) {
+                padding-left: 14.7368%;
+                width: 42.4168%;
+            }
+            @media (max-width: 1024px) {
+                width: 91.7333%;
+                padding-left:16px ;
+            }
+           .img-icons{
+            width: 36px;
+            height: 20.2px;
+            margin-right: 12px;
+            @media (min-width: 2500px){
+                width: 70px;
+                height: 39.27px;
+            }
+            @media (max-width: 1024px) {
+                width: 30px;
+                height:16.97px ;
+                margin-right: 11.33px;
+            }
+           }
+           .img-icons-barra{
+                width: 1px;
+                height:24px ;
+                margin-right: 13px;
+            @media (max-width: 1024px) {
+                height:21px ;
+                margin-right: 11.33px;
+            }
+           }
+           .img-icons-vtex{
+                width: 54.61px;
+                height: 34px;
+            @media (min-width: 2500px){
+                width: 106px ;
+                height: 66px;
+            }
+            @media (max-width: 1024px) {
+                width: 45px;
+                height: 28px;
+            }
+           }
+        }
+        .info-text-mobile{
+            display: none;
+            @media (max-width: 1024px) {
+                display: block;
+                margin-left: 16px;
+                margin-bottom: 15px;
+            }
+            .text-h2-mobile{
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }
+        .info-devs{
+            display: flex;
+            align-items: center;
+            padding-left:8.625781% ;
+            width: 26.328125%;
+            @media (min-width: 2500px) {
+                width:30.9036%;
+                padding-left: 14.7368%;
+            }
+            @media (max-width: 1024px) {
+                width: auto;
+                padding-left: 16px;
+                padding-bottom: 15px;
+            }
+            .info-devs-p{
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                margin-right: 12px;
+                @media (min-width: 2500px) {
+                    font-size: 20px;
+                    line-height: 23px;
+                }
+            }
+            .info-devs-imgvtex{
+                width: 44.92px;
+                height: 16px;
+                margin-right: 12px;
+                @media (min-width: 2500px) {
+                    width: 84.22px;
+                    height: 30px;
+                } 
+            }
+            .info-devs-imgm3{
+                width: 28.66px ;
+                height: 15.65px;
+                @media (min-width: 2500px) {
+                    width: 54.95px;
+                    height: 30px;
+                } 
+            }
+        }
+    }
+}

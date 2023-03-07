@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: column;
+  .link-casinha {
+    margin-left: 7.813%;
+    padding-bottom: 80px;
+    margin-top: 29px;
+    width: 8.985%;
+    min-width: 115px;
+    @media (min-width: 2500px) {
+      width: 8.56%;
+      margin-left: 4%;
+    }
+    @media (max-width: 1024px) {
+      width: 8.56%;
+      margin-left: 16px;
+    }
+    .img-casinha {
+      width: 100%;
+    }
+  }
+  .main-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin-bottom: 80px;
+    @media (min-width: 2500px) {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    @media (max-width: 1024px) {
+      margin-bottom: 40px;
+    }
+  }
+}

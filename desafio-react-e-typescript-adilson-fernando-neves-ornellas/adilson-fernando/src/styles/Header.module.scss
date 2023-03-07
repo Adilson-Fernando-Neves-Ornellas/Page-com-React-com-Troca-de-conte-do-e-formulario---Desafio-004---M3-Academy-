@@ -1,0 +1,228 @@
+.header {
+    background-color: black;
+    .header-top{
+      display:flex ;
+      align-items: center;
+      margin-bottom: 22px;
+      @media (max-width: 1024px){
+        margin-bottom: 25px;
+        margin-left: 1.563%;
+      }
+      @media (max-width: 668px){
+        margin-bottom: 25px;
+        margin-left: 4.265%;
+      }
+      .top-inputMenu{
+        display: none;
+        @media (max-width: 1024px){
+          display: block;
+          width: 28px;
+          height: 22.5px;
+          margin-top: 25px;
+        }
+        @media (max-width: 668px){
+          display: block;
+          margin-top: 25px;
+        }
+        .inputMenu-button{
+          background-color: black;
+          .inputMenu-Img{
+            width: 100%;
+          }
+        }
+      }
+      .top-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 23px;
+        margin-left: 7.813%;
+        @media (min-width: 2500px){
+          margin-left: 4%;
+          margin-top: 25px;
+        }
+        @media (max-width: 1024px){
+          width: 91.406%;
+          margin-top: 25px;
+          margin-left: 0%;
+        }
+        @media (max-width: 668px){
+          width: 76.8%;
+          margin-top: 25px;
+          margin-left: 0%;
+        }
+        .logo-Academy{
+          width: 136px;
+          @media (min-width: 2500px){
+            width: 265.62px;
+          }
+        }
+      }
+      .top-buscar{
+        display: flex;
+        align-items: center;
+        width: 20.625%;
+        height: 32px;
+        border: 2px white;
+        margin-left: 21.25%;
+        margin-top: 22px;
+        @media (min-width: 2500px){
+          margin-left: 25.0556% ;
+          height: 57px;
+        }
+        @media (max-width: 1024px){
+          display: none;
+        }
+        .buscar-input{
+          font-family: 'Roboto',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #C4C4C4;
+          height: 32px;
+          width: 100%;
+          border-radius: 5px 0px 0px 5px;
+          @media (min-width: 2500px){
+            height: 57px;
+            font-size: 28px;
+            line-height: 33px;
+          }
+        }
+        .buscar-button{
+          height: 32px;
+          border-radius: 0px 5px 5px 0px;
+          @media (min-width: 2500px){
+            height: 57px;
+          }
+          .buscar-lupa{
+            border-radius: 0px 5px 5px 0px;
+            height: 32px;
+            padding: 7px;
+            background-color: white;
+            @media (min-width: 2500px){
+              height: 57px;
+              padding: 11px;
+            }
+          }
+       }
+      }
+      .top-entrarCarrinho{
+        width: 10.625%;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        margin-left: 21.25%;
+        @media (min-width: 2500px){
+          margin-left: 27.0956%;
+        }
+        @media (max-width: 1024px){
+          width: 28px;
+          height: 28px;
+          margin-top: 25px;
+          margin-left: 0%;
+        }
+        @media (max-width: 668px){
+          width: 28px;
+          height: 28px;
+          margin-top: 25px;
+          margin-left: 0%;
+        }
+        .entrarCarrinho-texto{
+          font-family: 'Roboto',sans-serif;
+          font-style: normal;
+          font-weight: 400; 
+          font-size: 14px;
+          line-height: 16px;
+          color: white;
+          margin-right: 40.45% ;
+          .entrarCarinho-texto-a{
+            color: white;
+            text-decoration: none;
+          }
+          @media (min-width: 2500px){
+            font-size: 28px;
+            line-height: 33px;
+            margin-right: 20.71%;
+          }
+          @media (max-width: 1024px){
+            display: none;
+          }
+        }
+        .entrarCarrinho-img{
+            width: 28px;
+            @media (min-width: 2500px){
+              width: 54.68px;
+            }
+        }
+      }
+
+    }
+    .header-navBar{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #FFFFFF;
+      border-top: 1px solid white;
+      @media (max-width: 1024px){
+        display: none;
+      }
+      .navBar-Ul{
+        display: flex;
+        list-style: none;
+        margin-left: 7.813%;
+        padding-bottom: 14px;
+        margin-top: 14px;
+        @media (min-width: 2500px){
+          margin-left: 4%;
+        }
+        .navBar-Li{
+          margin-right: 4.297%;
+          .navBar-Li-a{
+            color: white;
+            text-decoration: none;
+          }
+          @media (min-width: 2500px){
+            font-size: 28px;
+            line-height: 33px;
+          }
+        }
+      }
+    }
+    .top-buscarMobile{
+      display: none;
+      @media (max-width: 1024px){
+        display: flex;
+        align-items: center;
+        width: 96.875%;
+        height: 36px;
+        margin-left: 1.563%;
+        padding-bottom: 25px;
+      }
+      @media (max-width: 668px){
+        display: flex;
+        align-items: center;
+        width: 91.42%;
+        height: 36px;
+        margin-left: 4.265%;
+        padding-bottom: 25px;
+      }
+      .buscarMobile-input{
+        height: 36px;
+        width: 100%;
+        border-radius: 5px 0px 0px 5px;
+      }
+      .buscarMobile-button{
+        height: 36px;
+        border-radius: 0px 5px 5px 0px;
+        .buscarMobile-lupa{
+          border-radius: 0px 5px 5px 0px;
+          height: 36px;
+          padding: 9px;
+          background-color: white;
+        }
+      }
+    }
+  }

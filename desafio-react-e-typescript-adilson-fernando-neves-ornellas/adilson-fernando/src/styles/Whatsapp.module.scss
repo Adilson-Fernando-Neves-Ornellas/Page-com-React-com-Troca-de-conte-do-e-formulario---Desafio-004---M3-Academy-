@@ -1,0 +1,23 @@
+.div-whatsapp{
+    position: fixed;
+    right: 16px;
+    bottom: 195px;
+    @media (min-width: 2500px) {
+        bottom: 270px;
+    }
+    @media (max-width: 1024px) {
+        bottom: 55px ;
+    }
+    .whatsapp-link{
+        width: 100%;
+        height: 100%;
+        .whatsapp-icon{
+            width: 34px;
+            height: 34px;
+            @media (min-width: 2500px) {
+                width: 66px;
+                height: 66px;
+            }
+        }
+    }
+}
